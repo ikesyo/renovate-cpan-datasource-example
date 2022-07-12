@@ -1,0 +1,15 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: ["config:base"],
+  regexManagers: [
+    {
+      fileMatch: ["^cpanfile$"],
+      matchStrings: [
+        "(requires|suggests)\\s*'(?<depName>.*?)',\\s*'(>|>=|==)?\\s*v?(?<currentValue>.*)';",
+      ],
+      datasourceTemplate: "cpan",
+      versioningTemplate: "perl",
+      extractVersionTemplate: "^v?(?<version>.*)$",
+    },
+  ],
+}
