@@ -31,7 +31,7 @@ requires 'Config::ZOMG', '1.000000';
 requires 'Const::Fast';
 requires 'CPAN::DistnameInfo', '0.12';
 requires 'Cpanel::JSON::XS', '4.29';
-requires 'CPAN::Meta', '2.150005'; # Avoid issues with List::Util dep under carton install.
+requires 'CPAN::Meta', '2.150010'; # Avoid issues with List::Util dep under carton install.
 requires 'CPAN::Meta::Requirements', '2.140';
 requires 'CPAN::Meta::YAML', '0.018';
 requires 'CPAN::Repository::Perms';
