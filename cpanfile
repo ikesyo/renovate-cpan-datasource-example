@@ -40,7 +40,7 @@ requires 'Data::DPath';
 requires 'Data::Dump';
 requires 'Data::Dumper';
 requires 'Data::Printer', '1.000004';
-requires 'DateTime', '1.54';
+requires 'DateTime', '1.58';
 requires 'DateTime::Format::ISO8601';
 requires 'DBD::SQLite', '1.66';
 requires 'DBI', '1.643';
