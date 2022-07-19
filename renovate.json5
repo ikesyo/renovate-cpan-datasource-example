@@ -5,7 +5,7 @@
     {
       fileMatch: ["^cpanfile$"],
       matchStrings: [
-        "(requires|suggests)\\s*'(?<depName>.*?)',\\s*'(>|>=|==)?\\s*v?(?<currentValue>.*)';",
+        "(requires|suggests)\\s*'(?<depName>.*?)',\\s*'(==|>=|>)?\\s*v?(?<currentValue>.*)';",
       ],
       datasourceTemplate: "cpan",
       versioningTemplate: "perl",
